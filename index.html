@@ -8,19 +8,22 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+		<!-- <link rel="stylesheet" href="./css/style.css"> -->
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
+			<div class="slides" style="letter-spacing: 0.20rem">
 				<section>
-					<h1>TypeScript</h1>
+					<h1 style="letter-spacing: 0.3rem;">TypeScript</h1>
+					<br>
+					<img class="r-frame" width="400" height="400" data-src="./images/typescript.svg" alt="TypeScript">
 				</section>
 				<section>
-					<h2>What is TypeScript?</h2>
+					<h2 style="letter-spacing: 0.3rem;">What is TypeScript?</h2>
 					<ul> 
 						<li>open-source programming language</li>
 						<li>developed Microsoft</li>
@@ -28,7 +31,7 @@
 					</ul>
 				</section>
 				<section>
-					<h2>History</h2>
+					<h2 style="letter-spacing: 0.3rem;">History</h2>
 					<ul>
 						<li>public in October 2012</li>
 						<li>TypeScript 1.0 in 2014</li>
@@ -39,7 +42,7 @@
 					</ul>
 				</section>
 				<section>
-					<h2>What TypeScript is for</h2>
+					<h2 style="letter-spacing: 0.3rem;">What is TypeScript for</h2>
 					<ul>
 						<li>detect errors at the compilation stage</li>
 						<li>as tooltips and code jumps</li>
@@ -51,7 +54,7 @@
 				
 				<section>
 					<section>
-						<h2>Features</h2>
+						<h2 style="letter-spacing: 0.3rem;">Features</h2>
 						<ul>
 							<li>Type annotations</li>
 							<li>Generics</li>
@@ -62,42 +65,68 @@
 						</ul>
 					</section>
 					<section>
-						<h2>Type annotations</h2>
-						<p>TypeScript provides static typing through type annotations to enable type checking at compile time. 
-							This is optional and can be ignored to use the regular dynamic typing of JavaScript.
+						<h2 style="letter-spacing: 0.3rem;">Type annotations</h2>
+						<br>
+						<p>... static convertFtoC(temp: number) : string { ...
+						</p>
+						<br>
+						<p>... static convertFtoC(temp: number) : string { ...
 						</p>
 					</section>
 					<section>
-						<h2>Declaration files</h2>
-						<p>When a TypeScript script gets compiled there is an option to generate a declaration file (with the extension .d.ts) 
-						   that functions as an interface to the components in the compiled JavaScript
-						</p>
+						<h2 style="letter-spacing: 0.3rem;">Declaration files</h2>
+						<ul>
+							<li>extension .d.ts</li>
+							<li>an interface to the components</li>
+						</ul>
 					</section>
 					<section>
-						<h2>Classes</h2>
-						<p>TypeScript supports ECMAScript 2015 classes that integrate the optional type annotations support
-						</p>
+						<h2 style="letter-spacing: 0.3rem;">Classes</h2>
+						<ul>
+							<li>object-oriented method</li>
+							<li>template for creating objects</li>
+							<li>encapsulate the functionality</li>
+						</ul>
 					</section>
 					<section>
-						<h2>Generics</h2>
-						<p>TypeScript supports generic programming
-						</p>
+						<h2 style="letter-spacing: 0.3rem;">Generics</h2>
+						<div style="display: flex; align-items: center;align-content: center; justify-content: center; ">
+							<div style="text-align: left;">
+								function getId<T>(id: T): T {…
+								<p style="padding-left: 50px;">
+									return id;
+								</p>
+								}
+							</div>
+						</div>	
 					</section>
 					<section>
-						<h2>Modules and namespaces</h2>
-						<p>TypeScript distinguishes between modules and namespaces.
-							 Both features in TypeScript support encapsulation of classes, interfaces, functions and variables into containers
+						<h2 style="letter-spacing: 0.3rem;">Modules and namespaces</h2>
+						<div style="display: flex; align-items: center;align-content: center; justify-content: center; ">
+							<div style="text-align: left;">
+								export function Call(phone: Phone) : void {
+								<p style="padding-left: 50px;">
+									console.log(phone.name);
+								</p>	
+								}
+							</div>
+						</div>
+						<br>
+						<p>
+							import {Phone, Call} from "./devices";
 						</p>
 					</section>
 				</section>
 				<section>
-					<h2>Compiler</h2>
-					<p>The TypeScript compiler, named tsc, is written in TypeScript
-					</p>
+					<h2 style="letter-spacing: 0.3rem;">Compiler</h2>
+					<ul>
+						<li>named tsc</li>
+						<li>included in plugins</li>
+					</ul>
 				</section>
 				
 				<section>
-					<h2>IDE and editor support</h2>
+					<h2 style="letter-spacing: 0.3rem;">IDE and editor support</h2>
 					<ul>
 						<li>Visual Studio </li>
 						<li>Visual Studio Code</li>
@@ -108,19 +137,21 @@
 					</ul>
 				</section>
 				<section>
-					<h2>When to use TypeScript</h2>
+					<h2 style="letter-spacing: 0.3rem;">When to use TypeScript</h2>
 					<ul>
 						<li>large application</li>
 						<li>know the static typing</li>
 					</ul>
 				</section>
-				<!-- <section>
-					<h2></h2>
+				<section>
+					<h2 style="letter-spacing: 0.3rem;">Summary</h2>
+					TypeScript 
 					<ul>
-						<li></li>
-						<li></li>
+						<li>an excellent tool</li>
+						<li>describe the interaction between application elements</li>
+						<li>compile into the readable code</li>
 					</ul>
-				</section> -->
+				</section>
 			</div>
 		</div>
 
