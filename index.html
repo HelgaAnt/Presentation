@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Presentation</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>TypeScript</h1>
+				</section>
+				<section>
+					<h2>What is TypeScript?</h2>
+					<ul> 
+						<li>open-source programming language</li>
+						<li>developed Microsoft</li>
+						<li>strict syntactical  superset of JavaScript</li>
+					</ul>
+				</section>
+				<section>
+					<h2>History</h2>
+					<ul>
+						<li>public in October 2012</li>
+						<li>TypeScript 1.0 in 2014</li>
+						<li>Visual Studio 2013 Update 2</li>
+						<li>TypeScript compilet in 2014</li>
+						<li>TYpeScript 2.0 in 2016</li>
+						<li>TypeScript 3.0 in 2018</li>
+					</ul>
+				</section>
+				<section>
+					<h2>What TypeScript is for</h2>
+					<ul>
+						<li>detect errors at the compilation stage</li>
+						<li>as tooltips and code jumps</li>
+						<li>less comments</li>
+						<li>architectural problems at earlier stages</li>
+						<li>unclude JavaScript</li>
+					</ul>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Features</h2>
+						<ul>
+							<li>Type annotations</li>
+							<li>Generics</li>
+							<li>Namespaces</li>
+							<li>Classes</li>
+							<li>Modules</li>
+							<li>Declaration files</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Type annotations</h2>
+						<p>TypeScript provides static typing through type annotations to enable type checking at compile time. 
+							This is optional and can be ignored to use the regular dynamic typing of JavaScript.
+						</p>
+					</section>
+					<section>
+						<h2>Declaration files</h2>
+						<p>When a TypeScript script gets compiled there is an option to generate a declaration file (with the extension .d.ts) 
+						   that functions as an interface to the components in the compiled JavaScript
+						</p>
+					</section>
+					<section>
+						<h2>Classes</h2>
+						<p>TypeScript supports ECMAScript 2015 classes that integrate the optional type annotations support
+						</p>
+					</section>
+					<section>
+						<h2>Generics</h2>
+						<p>TypeScript supports generic programming
+						</p>
+					</section>
+					<section>
+						<h2>Modules and namespaces</h2>
+						<p>TypeScript distinguishes between modules and namespaces.
+							 Both features in TypeScript support encapsulation of classes, interfaces, functions and variables into containers
+						</p>
+					</section>
+				</section>
+				<section>
+					<h2>Compiler</h2>
+					<p>The TypeScript compiler, named tsc, is written in TypeScript
+					</p>
+				</section>
+				
+				<section>
+					<h2>IDE and editor support</h2>
+					<ul>
+						<li>Visual Studio </li>
+						<li>Visual Studio Code</li>
+						<li>Sublime Text</li>
+						<li>JetBrains </li>
+						<li>Atom</li>
+						<li>...</li>
+					</ul>
+				</section>
+				<section>
+					<h2>When to use TypeScript</h2>
+					<ul>
+						<li>large application</li>
+						<li>know the static typing</li>
+					</ul>
+				</section>
+				<!-- <section>
+					<h2></h2>
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</section> -->
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
